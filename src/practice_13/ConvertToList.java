@@ -23,9 +23,9 @@ public class ConvertToList {
         System.out.println(listDouble);
         System.out.println(listString);
 
-        System.out.println(listInt.get(0).getClass());
-        System.out.println(listDouble.get(0).getClass());
-        System.out.println(listString.get(0).getClass());
+        System.out.println(listInt.get(0).getClass().getSimpleName());
+        System.out.println(listDouble.get(0).getClass().getSimpleName());
+        System.out.println(listString.get(0).getClass().getSimpleName());
 
     }
 }
